@@ -7,9 +7,16 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/search/..',
-      name: 'index',
-      component: index
+      path: "/search",
+      component: index,
+      redirect: "/search/index",
+      // children: [
+      //   {
+      //     path: "index",
+      //     component: index
+      //   }
+      // ]
     }
   ]
-})
+});
+
