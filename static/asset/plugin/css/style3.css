@@ -83,7 +83,10 @@ color: #00CCCC !important;
 	text-align: center;
 	cursor: pointer;
 }
-/******************************元素闪动******************************/
+.searchResult>TVPlayResult{
+	
+}
+/******************************å…ƒç´ é—ªåŠ¨******************************/
 
 .scaleout {
 	cursor: pointer;

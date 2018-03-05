@@ -1,0 +1,195 @@
+﻿/*全局类*/
+@charset "utf-8";
+	/** 清除内外边距**/
+		body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,div,/* 结构元素 */
+		dl,dt,dd,ul,ol,li,/* 列表元素 */
+		form,fieldset,legend,button,input,textarea,option,select,/* 表单元素 */
+		pre,/* 文本格式元素 */
+		tr,td,/* 表格元素 */
+		img{ margin:0; padding:0;}
+
+ul,ol,li{
+	list-style:none;
+		 }
+fieldset,a{
+	text-decoration:none;
+	color: black;
+	border: 0;
+   }
+
+/* a :link{color:black;}
+
+a :visited {color:black;}
+
+ a :hover{color:#808080;}
+
+a  :active {color:#808080;}*/
+
+* {font-family:"Microsoft YaHei" !important}
+
+
+input:focus{
+	outline:none;
+			}
+.clear{
+	overflow:hidden;
+	zoom:1;
+	clear:both;
+	    }
+
+/** 重置表格元素 **/
+	table {border-collapse:collapse;border-spacing:0;}
+table {
+	border-collspse:collspase;
+	border-spacing:0;
+}
+i,em,var,code,address{
+	font-style:normal;
+}
+ img{border:0px}
+
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+    display:block;
+}
+
+/* 去掉 firefox 下此元素的边框 */
+abbr,acronym {
+    border:none;
+    font-variant:normal;
+}
+
+/* 一致的 del 样式 */
+del {
+    text-decoration:line-through;
+}
+
+/* 统一上标和下标 */
+sub,sup {
+    font-size:75%;
+    line-height:0;
+    position:relative;
+    vertical-align:baseline;
+}
+sup {
+    top:-0.5em;
+}
+sub {
+    bottom:-0.25em;
+}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins,a {
+    text-decoration:none;
+}
+/* 去除 ie6 & ie7 焦点点状线 */
+a:focus,*:focus {
+    outline:none;
+}
+
+q:before, q:after{content:' '}
+
+
+
+ /*全局样式*/
+
+.blue{
+
+	background-color: #abcdef;
+}
+
+.yellow{
+
+	background-color: yellow;
+}
+
+.red{
+
+	background-color: red;
+}
+
+.purple{
+
+	background-color:purple;
+}
+
+.gray{
+
+	background-color:gray;
+}
+.green{
+	background-color: green;
+}
+.blue1{
+	background-color: #1665B4;
+}
+.orange{
+	background-color: orange;
+}
+.black{
+	background-color: black;
+}
+.fl-l{
+	float: left;
+	display:inline;
+}
+
+.fl-r{
+	float: right;
+	display:inline;
+}
+.Sfl-r{
+	float: right !important;
+
+}
+
+.po-a{
+	position: absolute;
+}
+
+.po-r{
+	position: relative;
+}
+
+.po-f{
+	position: fixed-top;
+}
+.dis-in{
+	display:inline;
+}
+.dis-n{
+	display: none;
+}
+.dis-b{
+	display: block;
+}
+.dis-ib{
+	display: inline-block;
+}
+.dis-tc{
+	display:table-cell;
+}
+
+.LM{
+	overflow-x:hidden;
+}
+/**div居中**/
+.m0{margin:0 auto;}
+
+.bornone{
+	border:none;
+}
+.inline>li {
+	float:left;
+	display:inline-block !important;
+}
+.ClearFloat:after{
+    content:"";
+    display:block;
+    overflow:hidden;
+    clear:both;
+}
+.ClearFloat{
+    zoom:1;
+}

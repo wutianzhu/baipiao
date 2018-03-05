@@ -303,6 +303,8 @@ a,
 		position: absolute;
 		top: 2.15em;
 		right: 2em;
+		width:40px !important;
+		height:80px !important;
 	}
 	.bottom-nav {
 		padding: 0.5em;
